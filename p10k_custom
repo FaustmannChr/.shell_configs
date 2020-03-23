@@ -10,8 +10,6 @@ typeset -g POWERLEVEL9K_DIR_SHORTENED_FOREGROUND=7
 # segment is alwways an anchor.
 typeset -g POWERLEVEL9K_DIR_ANCHOR_FOREGROUND=6
 
+
 # Format for the current time
 typeset -g POWERLEVEL9K_TIME_FORMAT='%D{%d.%b %H:%M}'
-
-# Transient prompt mode
-typeset -g POWERLEVEL9K_TRANSIENT_PROMPT=always
