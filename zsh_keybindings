@@ -1,5 +1,9 @@
+# activates vi mode for zsh
+bindkey -v 
+
+# binds backspace and delete key to "normal" function
 bindkey "^?" backward-delete-char
 bindkey "\e[3~" delete-char
 
-
-echo "...zsh_keybindings loaded"
+# only for debugging
+# echo "...zsh_keybindings loaded"
