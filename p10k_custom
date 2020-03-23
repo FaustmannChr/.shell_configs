@@ -1,0 +1,17 @@
+# custom powerlevel10k config
+##
+# Default current directory color.
+typeset -g POWERLEVEL9K_DIR_FOREGROUND=7
+
+# Color of the shortened directory segments.
+typeset -g POWERLEVEL9K_DIR_SHORTENED_FOREGROUND=7
+
+# Color of the anchor directory segments. Anchor segments are never shortened. The first
+# segment is alwways an anchor.
+typeset -g POWERLEVEL9K_DIR_ANCHOR_FOREGROUND=6
+
+# Format for the current time
+typeset -g POWERLEVEL9K_TIME_FORMAT='%D{%d.%b %H:%M}'
+
+# Transient prompt mode
+typeset -g POWERLEVEL9K_TRANSIENT_PROMPT=always
